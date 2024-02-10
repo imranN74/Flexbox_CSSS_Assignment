@@ -1,0 +1,29 @@
+Q1. Describe the main differences between the CSS Flexbox layout model and the CSS Grid layout model. When would you choose to use one over the other?
+
+Ans :-
+Differences between Flexbox layout and Grid layout:
+(a). Flexbox layout : Flexbox used  Primarily a one-dimensional layout model. It is designed for laying out items in a single direction, either as a row or a column. Works along either the row or column axis, allowing for the creation of layouts in a single direction.
+
+(b). Grid layout: Grid used for a two-dimensional layout model that enables you to create layouts with both rows and columns simultaneously. Works along both the row and column axes simultaneously, providing greater control over both dimensions.
+
+=> Use Cases of Flexbox and Grid layout:
+
+Flexbox:Use Flexbox when dealing with a single dimension (row or column) and for simpler, more linear layouts.
+
+Grid:Use Grid when dealing with two dimensions (rows and columns) and for more complex layouts requiring precise control over both dimensions.
+
+
+Q2. Explain the role of the following key properties in the flexbox layout model.
+
+Ans :-
+
+(a). justify-content : This is the CSS property used in flexbox to control the alignment of flex items on the main axis in the flex container. 
+
+(b). align-items : This is the CSS property used in flexbox to control the alignment of flex items on the cross axis in the flex container. 
+
+(c). gap : gap property in flexbox model is used to give gap (spacing) between the flex container items.
+
+(d). flex-direction : flex-direction property is used to define the direction of the flex container items, which ultimately decides the main axis and cross axis.
+
+(e). flex-wrap : flex-wrap property defines if the flex items is adjusted on multiple lines if there is not much space.
+

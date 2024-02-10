@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+.price-tags{
+    height:fit-content;
+    width:250px;
+    border: none;
+    box-shadow: 5px 5px 10px #888888;
+    border-radius: 8px;
+    padding: 15px;
+}
+
+.price-tags p:nth-child(1){
+    font-weight: 700;
+    font-size: 30px;
+    padding: 0;
+}
+.price-tags p:nth-child(2){
+    font-size: 20px;
+    padding: 0;
+}
+
+.price-tags p:nth-child(3){
+    font-size: 35px;
+}
+
+.price-tags p{
+    font-size: 15px;
+    padding: 9px;
+}
+
+
+
+.with-icon::before{
+    content: '\f058';
+    font-family: 'Font Awesome 6 Free';
+    margin-right: 10px;
+}
+
+.subscribe{
+    margin: auto;
+    display: block;
+    margin-top: 35px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    background-color: #1C1C1C;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.subscribe:hover{
+    cursor: pointer;
+}
+
+.selected{
+    background-color: #1C1C1C;
+    color: aliceblue;
+}
+
+.selected .subscribe{
+    background-color: aliceblue;
+    color: #1C1C1C;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        display: block;
+    }
+}

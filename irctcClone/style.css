@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Inter', sans-serif;
+}
+
+.right{
+    width:30%;
+}
+
+.right img{
+    height: 100%;
+    max-width: 100%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    padding:5vh 5vw;
+    width:calc(100vw - 30%);
+}
+
+.top-nav{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+
+.left .rail-icons{
+    display: inline-block;
+}
+
+.left .rail-icons img{
+    padding:10px;
+}
+
+.nav{
+    display: inline-block;
+}
+
+.links ul li {
+    display: inline-block;
+    padding:5px;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.links ul li a:hover{
+    color:#FB792B;
+}
+
+.nav .btns button{
+    padding:8px 15px;
+    background-color: white;
+    border: 1px solid rgb(112, 112, 112);
+    border-radius: 5px;
+    margin:5px;
+}
+
+.nav .btns button:nth-child(1){
+    background-color:  #FB792B
+}
+
+.title{
+    display: block;
+    margin-top: 30px;
+    font-size: 1.4em;
+}
+
+.title h2{
+    display: inline-block;
+    margin:5px;
+}
+
+.title h2:nth-child(2){
+    color: green;
+}
+
+.title h2:nth-child(3){
+    color: orange;
+}
+
+.title h2:nth-child(4){
+    color: blue;
+}
+
+.ticket-contents{
+    display: flex;
+    justify-content: center;
+}
+
+.status-btns{
+    margin-top: 40px;
+}
+
+.status-btns button{
+    padding:8px 20px;
+    background-color: white;
+    border: 1px solid rgb(112, 112, 112);
+    border-radius: 5px;
+    margin:10px;
+}
+
+.status-btns button:nth-child(1){
+    background-color: rgb(23, 29, 48);
+    color: white;
+}
+
+.btns button:hover{
+    cursor: pointer;
+    background-color: rgb(23, 29, 48);
+    color:white;
+}
+
+.travel-container{
+    display: flex;
+    justify-content: center;
+}
+
+.to-from{
+    width:500px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 0.5px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.to{
+    display: flex;
+    align-items: center;
+}
+
+.from{
+    display: flex;
+    align-items: center;
+}
+
+.to div{
+    display: inline-block;
+}
+
+.from div{
+    display: inline-block;
+}
+
+.arrow{
+    display: flex;
+    align-items: center;
+}
+
+.arrow div{
+    display: inline-block;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.btn button{
+    margin-top: 25px;
+    padding:25px 195px;
+    font-size: 20px;
+    color:white;
+    font-weight: 700;
+    background-color: rgb(73, 198, 73);
+    border: none;
+    border-radius: 8px;
+}
+
+.drop::after{
+    content: " \25BE";
+}
+
+
